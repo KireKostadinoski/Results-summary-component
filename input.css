@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+   /* Define the gradient using RGB values */
+.bg-gradient-custom {
+    background-image: linear-gradient(to top, rgb(140, 133, 209), rgb(83, 118, 238));
+  }
+  }

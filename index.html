@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title> Results </title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon-32x32.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans">
+    <div class="flex justify-center md:items-center w-screen h-screen">
+        <div class="flex flex-col max-w-full md:mx-auto md:flex-row md:shadow-xl rounded-3xl">
+            <div
+                class="flex flex-col justify-center items-center p-6 space-y-6 rounded-b-3xl md:space-y-12 md:w-1/2 md:rounded-3xl" style="background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));">
+                <h3 class="text-slate-200 text-2xl font-semibold">Your Result</h3>
+                <div class="flex flex-col justify-center items-center w-44 h-44 rounded-full" style="background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));">
+                    <h1 class="text-[80px] text-white font-bold">76</h1>
+                    <p class="text-slate-300 text-[20px] font-semibold">of 100</p>
+                </div>
+
+                <h2 class="text-white font-bold text-3xl">Great</h2>
+                <p class="text-center text-slate-200 text-lg md:text-2xl">You scored higher than 65% of the people who have taken these
+                    tests.</p>
+
+            </div>
+            <div class="flex flex-col justify-center px-10 bg-white md:w-1/2 md:rounded-3xl">
+                <h2 class="my-4 text-2xl font-semibold">Summary</h2>
+                <div class="flex flex-col space-y-4">
+                    <div class="flex flex-row justify-between p-4 rounded-lg bg-[#ff9999] bg-opacity-10">
+                        <div class="flex flex-row">
+                            <img src="assets/images/icon-reaction.svg" alt="" class="mr-2">
+                            <p class="font-bold text-red-500">Reaction</p>
+                        </div>
+                        <div>
+                            <p class="font-bold">80<span class="text-slate-400"> / 100</span></p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row justify-between p-4 rounded-lg bg-[#ffcc33] bg-opacity-10">
+                        <div class="flex flex-row">
+                            <img src="assets/images/icon-memory.svg" alt="" class="mr-2">
+                            <p class="font-bold text-yellow-500">Memory</p>
+                        </div>
+                        <div>
+                            <p class="font-bold">92<span class="text-slate-400"> / 100</span></p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row justify-between p-4 rounded-lg bg-[#33cccc] bg-opacity-10">
+                        <div class="flex flex-row">
+                            <img src="assets/images/icon-verbal.svg" alt="" class="mr-2">
+                            <p class="font-bold text-green-500">Verbal</p>
+                        </div>
+                        <div>
+                            <p class="font-bold">61<span class="text-slate-400"> / 100</span></p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row justify-between p-4 rounded-lg bg-[#3385ad] bg-opacity-10">
+                        <div class="flex flex-row">
+                            <img src="assets/images/icon-visual.svg" alt="" class="mr-2">
+                            <p class="font-bold text-blue-500">Visual</p>
+                        </div>
+                        <div>
+                            <p class="font-bold">72<span class="text-slate-400"> / 100</span></p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <button class="w-full py-3 px-4 bg-blue-950 hover:bg-blue-800 duration-150 text-white text-xl rounded-3xl">Continue</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
